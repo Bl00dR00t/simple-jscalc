@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <p class="displayResult tittle"></p>
+    <p>
+        <button class="numbers" onclick="
+            calulation += '1';
+            console.log(calulation);
+        ">1</button>
+        <button  class="numbers" onclick="
+            calulation += '2';
+            console.log(calulation);
+        ">2</button>
+        <button  class="numbers" onclick="
+            calulation  += '3';
+            console.log(calulation);
+        ">3</button>
+        <button class="operators" onclick="
+            calulation  += '+';
+            console.log(calulation);
+        ">+</button>
+    </p>
+    <p>
+        <button  class="numbers" onclick="
+            calulation  += '4';
+            console.log(calulation);
+        ">4</button>
+        <button  class="numbers" onclick="
+            calulation  += '5';
+            console.log(calulation);
+        ">5</button>
+        <button  class="numbers" onclick="
+            calulation  += '6';
+            console.log(calulation);
+        ">6</button>
+        <button class="operators" onclick="
+            calulation += '-';
+            console.log(calulation);
+        ">-</button>
+    </p>
+    <p>
+        <button  class="numbers" onclick="
+            calulation += '7';
+            console.log(calulation);
+        ">7</button>
+        <button  class="numbers" onclick="
+            calulation += '8';
+            console.log(calulation);
+        ">8</button>
+        <button  class="numbers" onclick="
+            calulation += '9';
+            console.log(calulation);
+        ">9</button>
+        <button class="operators" onclick="
+            calulation += '*';
+            console.log(calulation);
+        ">*</button>
+    </p>
+    <p>
+        <button  class="numbers" onclick="
+            calulation += '0';
+            console.log(calulation);
+        ">0</button>
+        <button  class="numbers" onclick="
+            calulation += '.';
+            console.log(calulation);
+        ">.</button>
+        <button  class="numbers" onclick="
+            calulation=eval(calulation);
+            DisplayResult()
+            console.log(calulation);
+        ">=</button>
+        <button class="operators" onclick="
+            calulation += '/';
+            console.log(calulation);
+        ">/</button>
+    </p>
+    <p>
+        <button class="clear" onclick="
+            calulation = '';
+            ">clear</button>
+        
+    </p>
+</body>
+</html>

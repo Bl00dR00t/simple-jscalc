@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.numbers{
+    background-color: rgb(51,51,51);
+    color: white;
+    border: none;
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.operators{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+.clear{
+    background-color: rgb(51,51,51);
+    color: white;
+    border: none;
+    border-radius: 60px;
+    padding: 12px;
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.tittle{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
